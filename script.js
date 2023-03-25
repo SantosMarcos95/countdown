@@ -1,6 +1,3 @@
-
-
-
 const formatarDigito = (digito) => `0${digito}`.slice(-2)
 
 const atualizar = (tempo) => {
@@ -42,6 +39,5 @@ const tempoRestante = () => {
 
     return Math.floor((dataEvento - dataHoje) / 1000)
 }
-
 
 contagemRegressiva(tempoRestante())
